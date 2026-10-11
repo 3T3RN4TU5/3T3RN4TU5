@@ -75,20 +75,20 @@
 <text class="role r1" x="72" y="186" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="24" fill="#9fb0c3">Open-source contributor · LibreDB · Lingui</text>
 <text class="role r2" x="72" y="186" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="24" fill="#9fb0c3">Next.js · Node.js · Supabase · Three.js</text>
 <g class="chip" style="animation-delay:0.90s">
-  <rect x="72" y="224" rx="15" width="163" height="30" fill="#141f38" stroke="#24345a"/>
-  <text x="86" y="244" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#2dd4bf" font-weight="700">9</text>
-  <text x="102.4" y="244" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#c9d6e3">merged OSS PRs</text>
+  <rect x="72" y="224" rx="15" width="171.6" height="30" fill="#141f38" stroke="#24345a"/>
+  <text x="86" y="244" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#2dd4bf" font-weight="700">10</text>
+  <text x="110.8" y="244" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#c9d6e3">merged OSS PRs</text>
 </g>
 <g class="chip" style="animation-delay:1.05s">
-  <rect x="247" y="224" rx="15" width="154.39999999999998" height="30" fill="#141f38" stroke="#24345a"/>
-  <text x="261" y="244" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#2dd4bf" font-weight="700">7</text>
-  <text x="277.4" y="244" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#c9d6e3">live projects</text>
+  <rect x="255.6" y="224" rx="15" width="154.39999999999998" height="30" fill="#141f38" stroke="#24345a"/>
+  <text x="269.6" y="244" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#2dd4bf" font-weight="700">7</text>
+  <text x="286" y="244" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#c9d6e3">live projects</text>
 </g>
 <g class="chip" style="animation-delay:1.20s">
-  <rect x="413.4" y="224" rx="15" width="94.19999999999999" height="30" fill="#141f38" stroke="#24345a"/>
-  <text x="427.4" y="244" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#2dd4bf" font-weight="700">TS</text>
-  <text x="452.2" y="244" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#c9d6e3">first</text>
+  <rect x="422" y="224" rx="15" width="94.19999999999999" height="30" fill="#141f38" stroke="#24345a"/>
+  <text x="436" y="244" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#2dd4bf" font-weight="700">TS</text>
+  <text x="460.8" y="244" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#c9d6e3">first</text>
 </g>
-<g><circle class="dot" cx="537.5999999999999" cy="239" r="5" fill="#22c55e"/><text x="549.5999999999999" y="244" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#9fb0c3">open to freelance &amp; junior roles</text></g>
+<g><circle class="dot" cx="546.2" cy="239" r="5" fill="#22c55e"/><text x="558.2" y="244" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#9fb0c3">open to freelance &amp; junior roles</text></g>
 <rect x="0.5" y="0.5" width="1199" height="319" rx="20" fill="none" stroke="#24345a"/>
 </svg>

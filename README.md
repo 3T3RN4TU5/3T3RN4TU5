@@ -20,11 +20,12 @@ Merged:
 - **[libredb/libredb-studio#1571](https://github.com/libredb/libredb-studio/pull/1571)**: ClickHouse, Druid, libSQL and Couchbase name the refusal and the address when a server cannot be reached, instead of "fetch failed".
 - **[libredb/libredb-studio#1595](https://github.com/libredb/libredb-studio/pull/1595)**: CockroachDB functions and procedures no longer offer an Edit that every apply refused; the provider measures at connect whether the server runs the edit guard (verified on CockroachDB v26.3.2 and PostgreSQL 18.6).
 - **[libredb/libredb-studio#1609](https://github.com/libredb/libredb-studio/pull/1609)**: the Explain panel works on Vitess 25, whose vtgate refuses to explain a statement that names no table; the connect-time probe now asks against a table of the keyspace (verified on Vitess 25 and 24, MySQL, MariaDB, TiDB and StarRocks).
+- **[libredb/libredb-studio#1620](https://github.com/libredb/libredb-studio/pull/1620)**: inline row edit saves on StarRocks, which refuses to prepare an UPDATE; a statement refused that way is sent once more as text with its values safely written in (verified on StarRocks 4.1.6 and 3.3.22, MySQL and Doris).
 - **[lingui/js-lingui#2703](https://github.com/lingui/js-lingui/pull/2703)**: the Vite plugin's native macro transform no longer fails on module ids with a query string (React Router framework mode).
 
 Shipped in a release: [reticle#1402](https://github.com/reticlehq/reticle/pull/1402), an absent check on a hidden element names `state: hidden` ([Reticle 3.6.0](https://github.com/reticlehq/reticle/releases/tag/v3.6.0)).
 
-In review: [libredb#1620](https://github.com/libredb/libredb-studio/pull/1620), [corsair#1847](https://github.com/corsairdev/corsair/pull/1847).
+In review: [corsair#1847](https://github.com/corsairdev/corsair/pull/1847).
 
 ## Projects
 
