@@ -22,10 +22,12 @@ Merged:
 - **[libredb/libredb-studio#1609](https://github.com/libredb/libredb-studio/pull/1609)**: the Explain panel works on Vitess 25, whose vtgate refuses to explain a statement that names no table; the connect-time probe now asks against a table of the keyspace (verified on Vitess 25 and 24, MySQL, MariaDB, TiDB and StarRocks).
 - **[libredb/libredb-studio#1620](https://github.com/libredb/libredb-studio/pull/1620)**: inline row edit saves on StarRocks, which refuses to prepare an UPDATE; a statement refused that way is sent once more as text with its values safely written in (verified on StarRocks 4.1.6 and 3.3.22, MySQL and Doris).
 - **[lingui/js-lingui#2703](https://github.com/lingui/js-lingui/pull/2703)**: the Vite plugin's native macro transform no longer fails on module ids with a query string (React Router framework mode).
+- **[lingui/js-lingui#2718](https://github.com/lingui/js-lingui/pull/2718)**: the macro reference no longer documents a `format` prop that `<Plural>` and `<SelectOrdinal>` never had, and says how `#` is formatted.
+- **[reticlehq/reticle#1574](https://github.com/reticlehq/reticle/pull/1574)**: `reticle init` finds a Next.js root layout that lives in a route group instead of reporting there is none.
 
 Shipped in a release: [reticle#1402](https://github.com/reticlehq/reticle/pull/1402), an absent check on a hidden element names `state: hidden` ([Reticle 3.6.0](https://github.com/reticlehq/reticle/releases/tag/v3.6.0)).
 
-In review: [lingui#2718](https://github.com/lingui/js-lingui/pull/2718), [reticle#1574](https://github.com/reticlehq/reticle/pull/1574), [corsair#1847](https://github.com/corsairdev/corsair/pull/1847).
+In review: [corsair#1847](https://github.com/corsairdev/corsair/pull/1847).
 
 ## Projects
 
