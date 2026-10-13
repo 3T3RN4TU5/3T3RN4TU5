@@ -25,7 +25,7 @@ Merged:
 
 Shipped in a release: [reticle#1402](https://github.com/reticlehq/reticle/pull/1402), an absent check on a hidden element names `state: hidden` ([Reticle 3.6.0](https://github.com/reticlehq/reticle/releases/tag/v3.6.0)).
 
-In review: [lingui#2718](https://github.com/lingui/js-lingui/pull/2718), [corsair#1847](https://github.com/corsairdev/corsair/pull/1847).
+In review: [lingui#2718](https://github.com/lingui/js-lingui/pull/2718), [reticle#1574](https://github.com/reticlehq/reticle/pull/1574), [corsair#1847](https://github.com/corsairdev/corsair/pull/1847).
 
 ## Projects
 
