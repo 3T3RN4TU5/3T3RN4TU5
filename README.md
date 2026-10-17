@@ -24,10 +24,11 @@ Merged:
 - **[lingui/js-lingui#2703](https://github.com/lingui/js-lingui/pull/2703)**: the Vite plugin's native macro transform no longer fails on module ids with a query string (React Router framework mode).
 - **[lingui/js-lingui#2718](https://github.com/lingui/js-lingui/pull/2718)**: the macro reference no longer documents a `format` prop that `<Plural>` and `<SelectOrdinal>` never had, and says how `#` is formatted.
 - **[reticlehq/reticle#1574](https://github.com/reticlehq/reticle/pull/1574)**: `reticle init` finds a Next.js root layout that lives in a route group instead of reporting there is none.
+- **[reticlehq/reticle#1603](https://github.com/reticlehq/reticle/pull/1603)**: `reticle init` names the route-group root layouts it left without `<ReticleDev />`, so no route goes unobserved silently.
 
 Shipped in a release: [reticle#1402](https://github.com/reticlehq/reticle/pull/1402), an absent check on a hidden element names `state: hidden` ([Reticle 3.6.0](https://github.com/reticlehq/reticle/releases/tag/v3.6.0)).
 
-In review: [reticle#1603](https://github.com/reticlehq/reticle/pull/1603), [corsair#1847](https://github.com/corsairdev/corsair/pull/1847).
+In review: [corsair#1847](https://github.com/corsairdev/corsair/pull/1847).
 
 ## Projects
 
