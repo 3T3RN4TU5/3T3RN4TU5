@@ -4,6 +4,12 @@
   <img alt="Jeevan, full-stack TypeScript developer and open-source contributor" src="assets/header-dark.svg" width="100%">
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/intro-dark.gif">
+  <source media="(prefers-color-scheme: light)" srcset="assets/intro-light.gif">
+  <img alt="Terminal: whoami prints Jeevan, full-stack developer working mostly in TypeScript; then the stack, 16 merged open-source PRs, and open to freelance and junior roles" src="assets/intro-dark.gif" width="100%">
+</picture>
+
 Full-stack developer working mostly in **TypeScript**: Next.js and React on the front, Node/Express and Supabase/Postgres or MongoDB behind it, deployed on Vercel and Cloudflare. I like shipping things people can actually open and use, and I contribute fixes to open-source projects I learn from.
 
 **Portfolio:** [jeevan2410.github.io/Portfolio](https://jeevan2410.github.io/Portfolio/)
@@ -37,29 +43,6 @@ In review: [reticle#1737](https://github.com/reticlehq/reticle/pull/1737), [cors
 
 ## Projects
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://adikecast.vercel.app"><img src="assets/demos/adikecast.gif" alt="AdikeCast: weekly arecanut price forecasts with a Sell / Hold signal" width="100%"></a>
-      <br><b><a href="https://github.com/Jeevan2410/price-forecasting">AdikeCast</a></b> · price forecasts for farmers
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Jeevan2410/projrc"><img src="assets/demos/quoteflow.gif" alt="QuoteFlow: quote-to-cash SaaS landing and pricing pages" width="100%"></a>
-      <br><b><a href="https://github.com/Jeevan2410/projrc">QuoteFlow</a></b> · quote-to-cash SaaS
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://tiny-planet-courier.vercel.app"><img src="assets/demos/tiny-planet-courier.gif" alt="Tiny Planet Courier: a multiplayer delivery game in the browser" width="100%"></a>
-      <br><b><a href="https://github.com/Jeevan2410/Tiny-Planet-Courier">Tiny Planet Courier</a></b> · multiplayer browser game
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://calculator-six-iota-56.vercel.app"><img src="assets/demos/college-rebuilds.gif" alt="The rebuilt Calculator and To-do apps in use" width="100%"></a>
-      <br><b><a href="https://github.com/Jeevan2410/Calculator">Calculator</a></b> and <b><a href="https://github.com/Jeevan2410/TO-DO-LIST">To-do</a></b> · college projects, rebuilt
-    </td>
-  </tr>
-</table>
-
 | Project | What it is | Stack |
 |---|---|---|
 | **[AdikeCast](https://github.com/Jeevan2410/price-forecasting)** · [live](https://adikecast.vercel.app) | Weekly arecanut price forecasts for Dakshina Kannada markets, turned into a plain Sell / Hold signal for farmers, in English and Kannada, with a free JSON API | Next.js 16, TypeScript, Zod |
@@ -83,6 +66,12 @@ In review: [reticle#1737](https://github.com/reticlehq/reticle/pull/1737), [cors
 | **[JeevanKitchen](https://github.com/Jeevan2410/Food-Website)** · [live](https://food-website-lovat-pi.vercel.app) | Recipes with a cook mode, one-tap timers and a screen that stays awake |
 
 ## Tools I use
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.gif">
+  <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.gif">
+  <img alt="My tools orbiting my name: TypeScript, React, Next.js, Node.js, Tailwind, Supabase, PostgreSQL, MongoDB, Express, Three.js, Vercel, Cloudflare and Astro" src="assets/stack-dark.gif" width="100%">
+</picture>
 
 TypeScript · JavaScript · React · Next.js · Astro · Node.js · Express · Supabase · PostgreSQL · MongoDB · Tailwind CSS · Three.js · Vercel · Cloudflare
 
