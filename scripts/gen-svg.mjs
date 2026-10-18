@@ -9,9 +9,9 @@ const out = process.argv[2] ?? "assets";
 mkdirSync(out, { recursive: true });
 
 // Edit these when your numbers change.
-const CHIPS = [["16", "merged OSS PRs"], ["7", "live projects"], ["TS", "first"]];
+const CHIPS = [["16", "merged OSS PRs"], ["7", "live projects"], ["Data", "analyst"]];
 const ROLES = [
-  "Full-stack TypeScript developer",
+  "Full-stack developer · data analyst",
   "Open-source contributor · LibreDB · Lingui",
   "Next.js · Node.js · Supabase · Three.js",
 ];
@@ -255,8 +255,8 @@ function header(t) {
   }
 
   const { cx, cy, r } = PLANET;
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Jeevan, full-stack TypeScript developer and open-source contributor">
-<title>Jeevan, full-stack TypeScript developer and open-source contributor</title>
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Jeevan, full-stack developer, data analyst and open-source contributor">
+<title>Jeevan, full-stack developer, data analyst and open-source contributor</title>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${t.bg1}"/><stop offset="1" stop-color="${t.bg2}"/></linearGradient>
   <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">

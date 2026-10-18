@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
-  <img alt="Jeevan, full-stack TypeScript developer and open-source contributor" src="assets/header-dark.svg" width="100%">
+  <img alt="Jeevan, full-stack developer, data analyst and open-source contributor" src="assets/header-dark.svg" width="100%">
 </picture>
 
 <picture>
@@ -10,7 +10,7 @@
   <img alt="Terminal: whoami prints Jeevan, full-stack developer and data analyst; then the stack, 16 merged open-source PRs, and open to freelance and junior roles" src="assets/intro-dark.gif" width="100%">
 </picture>
 
-Full-stack developer working mostly in **TypeScript**: Next.js and React on the front, Node/Express and Supabase/Postgres or MongoDB behind it, deployed on Vercel and Cloudflare. I like shipping things people can actually open and use, and I contribute fixes to open-source projects I learn from.
+Full-stack developer and data analyst. I build with Next.js and React on the front, Node/Express and Supabase/Postgres or MongoDB behind it, deployed on Vercel and Cloudflare. I like shipping things people can actually open and use, and I contribute fixes to open-source projects I learn from.
 
 **Portfolio:** [jeevan2410.github.io/Portfolio](https://jeevan2410.github.io/Portfolio/)
 
