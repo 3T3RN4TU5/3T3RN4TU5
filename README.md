@@ -37,6 +37,29 @@ In review: [reticle#1737](https://github.com/reticlehq/reticle/pull/1737), [cors
 
 ## Projects
 
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://adikecast.vercel.app"><img src="assets/demos/adikecast.gif" alt="AdikeCast: weekly arecanut price forecasts with a Sell / Hold signal" width="100%"></a>
+      <br><b><a href="https://github.com/Jeevan2410/price-forecasting">AdikeCast</a></b> · price forecasts for farmers
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Jeevan2410/projrc"><img src="assets/demos/quoteflow.gif" alt="QuoteFlow: quote-to-cash SaaS landing and pricing pages" width="100%"></a>
+      <br><b><a href="https://github.com/Jeevan2410/projrc">QuoteFlow</a></b> · quote-to-cash SaaS
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://tiny-planet-courier.vercel.app"><img src="assets/demos/tiny-planet-courier.gif" alt="Tiny Planet Courier: a multiplayer delivery game in the browser" width="100%"></a>
+      <br><b><a href="https://github.com/Jeevan2410/Tiny-Planet-Courier">Tiny Planet Courier</a></b> · multiplayer browser game
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://calculator-six-iota-56.vercel.app"><img src="assets/demos/college-rebuilds.gif" alt="The rebuilt Calculator and To-do apps in use" width="100%"></a>
+      <br><b><a href="https://github.com/Jeevan2410/Calculator">Calculator</a></b> and <b><a href="https://github.com/Jeevan2410/TO-DO-LIST">To-do</a></b> · college projects, rebuilt
+    </td>
+  </tr>
+</table>
+
 | Project | What it is | Stack |
 |---|---|---|
 | **[AdikeCast](https://github.com/Jeevan2410/price-forecasting)** · [live](https://adikecast.vercel.app) | Weekly arecanut price forecasts for Dakshina Kannada markets, turned into a plain Sell / Hold signal for farmers, in English and Kannada, with a free JSON API | Next.js 16, TypeScript, Zod |
