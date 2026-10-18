@@ -7,7 +7,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/intro-dark.gif">
   <source media="(prefers-color-scheme: light)" srcset="assets/intro-light.gif">
-  <img alt="Terminal: whoami prints Jeevan, full-stack developer working mostly in TypeScript; then the stack, 16 merged open-source PRs, and open to freelance and junior roles" src="assets/intro-dark.gif" width="100%">
+  <img alt="Terminal: whoami prints Jeevan, full-stack developer and data analyst; then the stack, 16 merged open-source PRs, and open to freelance and junior roles" src="assets/intro-dark.gif" width="100%">
 </picture>
 
 Full-stack developer working mostly in **TypeScript**: Next.js and React on the front, Node/Express and Supabase/Postgres or MongoDB behind it, deployed on Vercel and Cloudflare. I like shipping things people can actually open and use, and I contribute fixes to open-source projects I learn from.
