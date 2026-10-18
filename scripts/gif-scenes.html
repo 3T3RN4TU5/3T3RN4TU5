@@ -43,7 +43,7 @@ const esc = (s) => s.replace(/&/g,"&amp;").replace(/</g,"&lt;");
 if (scene === "intro") {
   // [prompt command, output lines (class, text)]
   const steps = [
-    ["whoami", [["c", "Jeevan, full-stack developer working mostly in TypeScript"]]],
+    ["whoami", [["c", "Jeevan, full-stack developer and data analyst"]]],
     ["cat stack.txt", [["hl", "Next.js · React · Node/Express · Supabase · MongoDB · Three.js"]]],
     ["gh pr list --author @me --state merged | wc -l", [["v", "16 merged open-source PRs  (LibreDB Studio · Lingui · Reticle)"]]],
     ["echo $STATUS", [["c", "Open to freelance work and junior / internship roles"]]],
@@ -84,7 +84,7 @@ if (scene === "orbit") {
     <div class="ring" style="width:${R1[0]*2}px;height:${R1[1]*2}px"></div>
     <div class="ring" style="width:${R2[0]*2}px;height:${R2[1]*2}px"></div>
     <div class="halo" id="halo"></div>
-    <div class="core"><b>Jeevan</b><span>full-stack · TS</span></div>
+    <div class="core"><b>Jeevan</b><span>full-stack · data</span></div>
     ${inner.map(([n,c],i)=>`<div class="pill" id="i${i}"><i style="background:${c}"></i>${n}</div>`).join("")}
     ${outer.map(([n,c],i)=>`<div class="pill" id="o${i}"><i style="background:${c}"></i>${n}</div>`).join("")}
   </div>`;
