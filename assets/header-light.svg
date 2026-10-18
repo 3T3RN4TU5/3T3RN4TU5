@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Jeevan, full-stack TypeScript developer and open-source contributor">
-<title>Jeevan, full-stack TypeScript developer and open-source contributor</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Jeevan, full-stack developer, data analyst and open-source contributor">
+<title>Jeevan, full-stack developer, data analyst and open-source contributor</title>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7f9fd"/><stop offset="1" stop-color="#e9effa"/></linearGradient>
   <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
@@ -71,7 +71,7 @@
 <text class="hello" x="74" y="86" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="20" fill="#475569">Hi, I&#39;m</text>
 <text class="name" x="70" y="142" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="64" font-weight="800" fill="url(#name)" letter-spacing="-1">Jeevan</text>
 <path class="underline" d="M74 156 C 140 166, 230 150, 312 158" fill="none" stroke="url(#name)" stroke-width="4" stroke-linecap="round"/>
-<text class="role r0" x="72" y="186" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="24" fill="#475569">Full-stack TypeScript developer</text>
+<text class="role r0" x="72" y="186" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="24" fill="#475569">Full-stack developer · data analyst</text>
 <text class="role r1" x="72" y="186" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="24" fill="#475569">Open-source contributor · LibreDB · Lingui</text>
 <text class="role r2" x="72" y="186" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="24" fill="#475569">Next.js · Node.js · Supabase · Three.js</text>
 <g class="chip" style="animation-delay:0.90s">
@@ -85,10 +85,10 @@
   <text x="286" y="244" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#1e293b">live projects</text>
 </g>
 <g class="chip" style="animation-delay:1.20s">
-  <rect x="422" y="224" rx="15" width="94.19999999999999" height="30" fill="#ffffff" stroke="#d4dcea"/>
-  <text x="436" y="244" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0d9488" font-weight="700">TS</text>
-  <text x="460.8" y="244" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#1e293b">first</text>
+  <rect x="422" y="224" rx="15" width="128.6" height="30" fill="#ffffff" stroke="#d4dcea"/>
+  <text x="436" y="244" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0d9488" font-weight="700">Data</text>
+  <text x="477.6" y="244" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#1e293b">analyst</text>
 </g>
-<g><circle class="dot" cx="546.2" cy="239" r="5" fill="#22c55e"/><text x="558.2" y="244" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#475569">open to freelance &amp; junior roles</text></g>
+<g><circle class="dot" cx="580.6" cy="239" r="5" fill="#22c55e"/><text x="592.6" y="244" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#475569">open to freelance &amp; junior roles</text></g>
 <rect x="0.5" y="0.5" width="1199" height="319" rx="20" fill="none" stroke="#d4dcea"/>
 </svg>
