@@ -76,7 +76,7 @@
 <text class="role r2" x="72" y="186" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="24" fill="#9fb0c3">Next.js · Node.js · Supabase · Three.js</text>
 <g class="chip" style="animation-delay:0.90s">
   <rect x="72" y="224" rx="15" width="171.6" height="30" fill="#141f38" stroke="#24345a"/>
-  <text x="86" y="244" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#2dd4bf" font-weight="700">13</text>
+  <text x="86" y="244" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#2dd4bf" font-weight="700">15</text>
   <text x="110.8" y="244" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#c9d6e3">merged OSS PRs</text>
 </g>
 <g class="chip" style="animation-delay:1.05s">
