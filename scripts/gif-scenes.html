@@ -1,0 +1,112 @@
+<!doctype html>
+<!-- Scenes for scripts/gen-gifs.mjs: open with ?scene=intro|orbit&theme=dark|light; render(t) draws time t in seconds. -->
+<html><head><meta charset="utf-8">
+<style>
+  :root { --bg:#0b1222; --panel:#111a30; --line:#24345a; --text:#e6edf3; --muted:#9fb0c3; --a1:#2dd4bf; --a2:#8b5cf6; --a3:#38bdf8; --pill:#141f38; }
+  body.light { --bg:#f7f9fd; --panel:#ffffff; --line:#d4dcea; --text:#0f172a; --muted:#475569; --a1:#0d9488; --a2:#7c3aed; --a3:#0284c7; --pill:#eef2fa; }
+  html, body { margin:0; width:840px; height:300px; overflow:hidden; background:var(--bg); }
+  body { font-family:"DejaVu Sans Mono", monospace; color:var(--text); }
+  /* intro terminal */
+  .term { position:absolute; inset:18px 24px; border:1px solid var(--line); border-radius:14px; background:var(--panel); overflow:hidden; }
+  .bar { height:34px; display:flex; align-items:center; gap:8px; padding:0 14px; border-bottom:1px solid var(--line); }
+  .dot { width:11px; height:11px; border-radius:50%; }
+  .title { margin-left:auto; margin-right:auto; color:var(--muted); font-size:12px; transform:translateX(-30px); }
+  .body { padding:12px 20px; font-size:14px; line-height:22px; white-space:pre; }
+  .p { color:var(--a1); } .c { color:var(--text); } .o { color:var(--muted); } .hl { color:var(--a3); } .v { color:var(--a2); }
+  .cur { display:inline-block; width:9px; height:17px; background:var(--a1); vertical-align:-3px; }
+  /* orbit */
+  .orbit { position:absolute; inset:0; }
+  .ring { position:absolute; border:1px dashed var(--line); border-radius:50%; left:50%; top:50%; transform:translate(-50%,-50%); }
+  .core { position:absolute; left:50%; top:50%; width:96px; height:96px; transform:translate(-50%,-50%); border-radius:50%;
+          background:linear-gradient(135deg,var(--a1),var(--a2)); display:flex; align-items:center; justify-content:center; flex-direction:column;
+          font-family:"DejaVu Sans", sans-serif; color:#fff; font-weight:bold; z-index:15; }
+  .core b { font-size:20px; } .core span { font-size:10px; opacity:.9; font-weight:normal; margin-top:2px; }
+  .halo { position:absolute; left:50%; top:50%; border-radius:50%; transform:translate(-50%,-50%); border:2px solid var(--a1); }
+  .pill { position:absolute; transform:translate(-50%,-50%); padding:5px 11px; border-radius:999px; background:var(--pill); border:1px solid var(--line);
+          font-family:"DejaVu Sans", sans-serif; font-size:13px; white-space:nowrap; display:flex; align-items:center; gap:6px; }
+  .pill i { width:8px; height:8px; border-radius:50%; display:inline-block; }
+  .side { position:absolute; top:50%; transform:translateY(-50%); font-family:"DejaVu Sans", sans-serif; }
+  .side.l { left:34px; } .side.r { right:34px; text-align:right; }
+  .side h3 { margin:0 0 6px; font-size:13px; color:var(--muted); font-weight:normal; letter-spacing:.08em; text-transform:uppercase; }
+  .side p { margin:0; font-size:22px; font-weight:bold; }
+  .side small { display:block; margin-top:4px; font-size:13px; color:var(--muted); }
+</style></head>
+<body>
+<div id="root"></div>
+<script>
+const q = new URLSearchParams(location.search);
+if (q.get("theme") === "light") document.body.classList.add("light");
+const scene = q.get("scene");
+const root = document.getElementById("root");
+const esc = (s) => s.replace(/&/g,"&amp;").replace(/</g,"&lt;");
+
+if (scene === "intro") {
+  // [prompt command, output lines (class, text)]
+  const steps = [
+    ["whoami", [["c", "Jeevan, full-stack developer working mostly in TypeScript"]]],
+    ["cat stack.txt", [["hl", "Next.js · React · Node/Express · Supabase · MongoDB · Three.js"]]],
+    ["gh pr list --author @me --state merged | wc -l", [["v", "16 merged open-source PRs  (LibreDB Studio · Lingui · Reticle)"]]],
+    ["echo $STATUS", [["c", "Open to freelance work and junior / internship roles"]]],
+  ];
+  const TYPE = 0.045, PAUSE_CMD = 0.25, PAUSE_OUT = 0.7, END_HOLD = 2.6;
+  // build a timeline
+  const tl = []; let t = 0.5;
+  for (const [cmd, out] of steps) { tl.push({ cmd, start: t, out, outAt: t + cmd.length * TYPE + PAUSE_CMD }); t += cmd.length * TYPE + PAUSE_CMD + PAUSE_OUT; }
+  window.DURATION = t + END_HOLD;
+  root.innerHTML = `<div class="term"><div class="bar"><span class="dot" style="background:#ff5f57"></span><span class="dot" style="background:#febc2e"></span><span class="dot" style="background:#28c840"></span><span class="title">jeevan@github: ~</span></div><div class="body" id="b"></div></div>`;
+  const b = document.getElementById("b");
+  window.render = (now) => {
+    let html = ""; let active = false;
+    for (const s of tl) {
+      if (now < s.start) break;
+      const n = Math.min(s.cmd.length, Math.floor((now - s.start) / TYPE));
+      const typing = now < s.outAt;
+      html += `<span class="p">jeevan@github</span><span class="o">:</span><span class="hl">~</span><span class="o">$</span> <span class="c">${esc(s.cmd.slice(0, n))}</span>`;
+      if (typing) { html += `<span class="cur"></span>\n`; active = true; break; }
+      html += "\n";
+      for (const [cls, text] of s.out) html += `<span class="${cls}">${esc(text)}</span>\n`;
+    }
+    if (!active) {
+      const blink = Math.floor(now / 0.5) % 2 === 0;
+      html += `<span class="p">jeevan@github</span><span class="o">:</span><span class="hl">~</span><span class="o">$</span> ` + (blink ? `<span class="cur"></span>` : "");
+    }
+    b.innerHTML = html;
+  };
+}
+
+if (scene === "orbit") {
+  window.DURATION = 12;
+  const inner = [["TypeScript","#3178c6"],["React","#61dafb"],["Next.js","#888"],["Node.js","#5fa04e"],["Tailwind","#38bdf8"]];
+  const outer = [["Supabase","#3ecf8e"],["PostgreSQL","#4169e1"],["MongoDB","#47a248"],["Express","#999"],["Three.js","#a78bfa"],["Vercel","#777"],["Cloudflare","#f38020"],["Astro","#ff5d01"]];
+  const cx = 420, cy = 150;
+  const R1 = [150, 82], R2 = [270, 128];
+  root.innerHTML = `<div class="orbit">
+    <div class="ring" style="width:${R1[0]*2}px;height:${R1[1]*2}px"></div>
+    <div class="ring" style="width:${R2[0]*2}px;height:${R2[1]*2}px"></div>
+    <div class="halo" id="halo"></div>
+    <div class="core"><b>Jeevan</b><span>full-stack · TS</span></div>
+    ${inner.map(([n,c],i)=>`<div class="pill" id="i${i}"><i style="background:${c}"></i>${n}</div>`).join("")}
+    ${outer.map(([n,c],i)=>`<div class="pill" id="o${i}"><i style="background:${c}"></i>${n}</div>`).join("")}
+  </div>`;
+  const halo = document.getElementById("halo");
+  window.render = (now) => {
+    const p = now / window.DURATION; // 0..1, loops exactly
+    const place = (arr, pre, R, dir) => arr.forEach((_, i) => {
+      const a = dir * p * Math.PI * 2 + (i / arr.length) * Math.PI * 2;
+      const x = cx + Math.cos(a) * R[0], y = cy + Math.sin(a) * R[1];
+      const el = document.getElementById(pre + i);
+      const depth = (Math.sin(a) + 1) / 2; // front = bottom
+      el.style.left = x + "px"; el.style.top = y + "px";
+      el.style.opacity = (0.55 + 0.45 * depth).toFixed(3);
+      el.style.zIndex = Math.round(depth * 10) + (y > cy ? 20 : 0);
+      el.style.transform = `translate(-50%,-50%) scale(${(0.88 + 0.16 * depth).toFixed(3)})`;
+    });
+    place(inner, "i", R1, 1); place(outer, "o", R2, -1);
+    const k = (now % 2) / 2; // halo pulse every 2s
+    const s = 96 + k * 60;
+    halo.style.width = halo.style.height = s + "px"; halo.style.opacity = (1 - k) * 0.6;
+  };
+}
+render(0);
+</script>
+</body></html>
