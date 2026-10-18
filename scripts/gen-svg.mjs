@@ -9,7 +9,7 @@ const out = process.argv[2] ?? "assets";
 mkdirSync(out, { recursive: true });
 
 // Edit these when your numbers change.
-const CHIPS = [["15", "merged OSS PRs"], ["7", "live projects"], ["TS", "first"]];
+const CHIPS = [["16", "merged OSS PRs"], ["7", "live projects"], ["TS", "first"]];
 const ROLES = [
   "Full-stack TypeScript developer",
   "Open-source contributor · LibreDB · Lingui",
