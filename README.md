@@ -12,7 +12,7 @@
 
 Full-stack developer and data analyst. I build with Next.js and React on the front, Node/Express and Supabase/Postgres or MongoDB behind it, deployed on Vercel and Cloudflare. I like shipping things people can actually open and use, and I contribute fixes to open-source projects I learn from.
 
-**Portfolio:** [jeevan2410.github.io/Portfolio](https://jeevan2410.github.io/Portfolio/)
+**Portfolio:** [3t3rn4tu5.github.io/Portfolio](https://3t3rn4tu5.github.io/Portfolio/)
 
 ## Open-source contributions
 
@@ -45,25 +45,25 @@ In review: [reticle#1737](https://github.com/reticlehq/reticle/pull/1737), [cors
 
 | Project | What it is | Stack |
 |---|---|---|
-| **[AdikeCast](https://github.com/Jeevan2410/price-forecasting)** · [live](https://adikecast.vercel.app) | Weekly arecanut price forecasts for Dakshina Kannada markets, turned into a plain Sell / Hold signal for farmers, in English and Kannada, with a free JSON API | Next.js 16, TypeScript, Zod |
-| **[QuoteFlow](https://github.com/Jeevan2410/projrc)** | Quote-to-cash SaaS for small service businesses: enquiries, quotes, jobs and follow-ups | Next.js 16, TypeScript, Cloudflare Workers |
-| **[CineGen API](https://github.com/Jeevan2410/CineGen-API)** | Backend for AI video and image generation: JWT auth and roles, credits, async jobs via queue, signed webhooks and a fallback poller | Node.js, Express, MongoDB, Cloudinary |
-| **[Tiny Planet: Shrines of the Blight](https://github.com/Jeevan2410/Tiny-Planet-Action-RPG)** · [play](https://tiny-planet-action-rpg.vercel.app) | A 3D action-RPG on a tiny round world, with quests, gear, saves and a synthesised audio engine | Three.js, TypeScript, Vite, IndexedDB |
-| **[Tiny Planet Courier](https://github.com/Jeevan2410/Tiny-Planet-Courier)** · [play](https://tiny-planet-courier.vercel.app) | Multiplayer browser delivery game with other players in real time | Three.js, Supabase Realtime |
-| **[BookNest](https://github.com/Jeevan2410/BookNest)** · [live](https://book-nest-lemon-eight.vercel.app) | A bookstore and book-box subscription site: browse by genre, build a box, gifts, membership, accounts and checkout | React, Supabase, Framer Motion |
-| **[achievement-tracker](https://github.com/Jeevan2410/achievement-tracker)** | CLI that shows progress toward GitHub achievement tiers | TypeScript, GitHub REST and GraphQL |
+| **[AdikeCast](https://github.com/3T3RN4TU5/price-forecasting)** · [live](https://adikecast.vercel.app) | Weekly arecanut price forecasts for Dakshina Kannada markets, turned into a plain Sell / Hold signal for farmers, in English and Kannada, with a free JSON API | Next.js 16, TypeScript, Zod |
+| **[QuoteFlow](https://github.com/3T3RN4TU5/projrc)** | Quote-to-cash SaaS for small service businesses: enquiries, quotes, jobs and follow-ups | Next.js 16, TypeScript, Cloudflare Workers |
+| **[CineGen API](https://github.com/3T3RN4TU5/CineGen-API)** | Backend for AI video and image generation: JWT auth and roles, credits, async jobs via queue, signed webhooks and a fallback poller | Node.js, Express, MongoDB, Cloudinary |
+| **[Tiny Planet: Shrines of the Blight](https://github.com/3T3RN4TU5/Tiny-Planet-Action-RPG)** · [play](https://tiny-planet-action-rpg.vercel.app) | A 3D action-RPG on a tiny round world, with quests, gear, saves and a synthesised audio engine | Three.js, TypeScript, Vite, IndexedDB |
+| **[Tiny Planet Courier](https://github.com/3T3RN4TU5/Tiny-Planet-Courier)** · [play](https://tiny-planet-courier.vercel.app) | Multiplayer browser delivery game with other players in real time | Three.js, Supabase Realtime |
+| **[BookNest](https://github.com/3T3RN4TU5/BookNest)** · [live](https://book-nest-lemon-eight.vercel.app) | A bookstore and book-box subscription site: browse by genre, build a box, gifts, membership, accounts and checkout | React, Supabase, Framer Motion |
+| **[achievement-tracker](https://github.com/3T3RN4TU5/achievement-tracker)** | CLI that shows progress toward GitHub achievement tiers | TypeScript, GitHub REST and GraphQL |
 
 ### My first college projects, rebuilt in 2026
 
 | Project | What changed |
 |---|---|
-| **[Weather](https://github.com/Jeevan2410/WeatherApp)** · [live](https://weather-app-lac-iota-59.vercel.app) | Animated sky with canvas rain and snow; Open-Meteo instead of a committed API key |
-| **[Calculator](https://github.com/Jeevan2410/Calculator)** · [live](https://calculator-six-iota-56.vercel.app) | A safe parser instead of `eval`, history, keyboard input, 3D tilt |
-| **[To-do](https://github.com/Jeevan2410/TO-DO-LIST)** · [live](https://jeevan2410.github.io/TO-DO-LIST/) | Drag to reorder, undo, FLIP animations; JSON storage instead of saved HTML |
-| **[Reelhouse](https://github.com/Jeevan2410/Netflix-Clone)** · [live](https://jeevan2410.github.io/Netflix-Clone/) | A copied sign-up page turned into an original TV show browser on TVmaze |
-| **[Halcyon One](https://github.com/Jeevan2410/Landing-Page)** · [live](https://jeevan2410.github.io/Landing-Page/) | A concept smartwatch modelled in Three.js that turns as you scroll |
-| **[Jeevan Travels](https://github.com/Jeevan2410/Travel-Website-)** · [live](https://travel-website-ashen-seven.vercel.app) | A trip planner on a 3D dotted globe with live weather and share links |
-| **[JeevanKitchen](https://github.com/Jeevan2410/Food-Website)** · [live](https://food-website-lovat-pi.vercel.app) | Recipes with a cook mode, one-tap timers and a screen that stays awake |
+| **[Weather](https://github.com/3T3RN4TU5/WeatherApp)** · [live](https://weather-app-lac-iota-59.vercel.app) | Animated sky with canvas rain and snow; Open-Meteo instead of a committed API key |
+| **[Calculator](https://github.com/3T3RN4TU5/Calculator)** · [live](https://calculator-six-iota-56.vercel.app) | A safe parser instead of `eval`, history, keyboard input, 3D tilt |
+| **[To-do](https://github.com/3T3RN4TU5/TO-DO-LIST)** · [live](https://3t3rn4tu5.github.io/TO-DO-LIST/) | Drag to reorder, undo, FLIP animations; JSON storage instead of saved HTML |
+| **[Reelhouse](https://github.com/3T3RN4TU5/Netflix-Clone)** · [live](https://3t3rn4tu5.github.io/Netflix-Clone/) | A copied sign-up page turned into an original TV show browser on TVmaze |
+| **[Halcyon One](https://github.com/3T3RN4TU5/Landing-Page)** · [live](https://3t3rn4tu5.github.io/Landing-Page/) | A concept smartwatch modelled in Three.js that turns as you scroll |
+| **[Jeevan Travels](https://github.com/3T3RN4TU5/Travel-Website-)** · [live](https://travel-website-ashen-seven.vercel.app) | A trip planner on a 3D dotted globe with live weather and share links |
+| **[JeevanKitchen](https://github.com/3T3RN4TU5/Food-Website)** · [live](https://food-website-lovat-pi.vercel.app) | Recipes with a cook mode, one-tap timers and a screen that stays awake |
 
 ## Tools I use
 
