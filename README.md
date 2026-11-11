@@ -40,7 +40,7 @@ Shipped in a release: [reticle#1402](https://github.com/reticlehq/reticle/pull/1
 
 Listed as a contributor in [LibreDB Studio's CONTRIBUTORS.md](https://github.com/libredb/libredb-studio/blob/main/CONTRIBUTORS.md) for 1.0.0.
 
-In review: [lingui#2773](https://github.com/lingui/js-lingui/pull/2773), [corsair#1847](https://github.com/corsairdev/corsair/pull/1847).
+In review: [reticle#2240](https://github.com/reticlehq/reticle/pull/2240), [lingui#2773](https://github.com/lingui/js-lingui/pull/2773), [corsair#1847](https://github.com/corsairdev/corsair/pull/1847).
 
 ## Projects
 
