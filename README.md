@@ -34,12 +34,13 @@ Merged:
 - **[reticlehq/reticle#1719](https://github.com/reticlehq/reticle/pull/1719)**: `reticle init` leaves a `CLAUDE.md` that only imports `AGENTS.md` alone, so Claude Code no longer loads the Reticle rule twice.
 - **[reticlehq/reticle#1720](https://github.com/reticlehq/reticle/pull/1720)**: `reticle init` and `setup mcp` no longer crash on Android (Termux), FreeBSD or OpenBSD; those hosts plan agent configs with the Linux paths.
 - **[reticlehq/reticle#1730](https://github.com/reticlehq/reticle/pull/1730)**: the stale-response check no longer reports a page query and its count query that differ only in `page_size` (or `take`, `skip`, `$top` and other paging spellings) as a race.
+- **[reticlehq/reticle#1737](https://github.com/reticlehq/reticle/pull/1737)**: the same check compares paging values as well as names, so a filter that reuses a paging name (`first=John`, a date range in `start`/`end`) is reported again.
 
 Shipped in a release: [reticle#1402](https://github.com/reticlehq/reticle/pull/1402), an absent check on a hidden element names `state: hidden` ([Reticle 3.6.0](https://github.com/reticlehq/reticle/releases/tag/v3.6.0)).
 
 Listed as a contributor in [LibreDB Studio's CONTRIBUTORS.md](https://github.com/libredb/libredb-studio/blob/main/CONTRIBUTORS.md) for 1.0.0.
 
-In review: [reticle#1737](https://github.com/reticlehq/reticle/pull/1737), [corsair#1847](https://github.com/corsairdev/corsair/pull/1847).
+In review: [lingui#2773](https://github.com/lingui/js-lingui/pull/2773), [corsair#1847](https://github.com/corsairdev/corsair/pull/1847).
 
 ## Projects
 
